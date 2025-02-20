@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html, body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.screen{
+    height: 100%;
+    background: url(220141.gif);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.content{
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+   
+}
+.logo img{
+    width: 170px;
+    margin-bottom: 20px;
+}
+.info{
+    color: #f3f3f3;
+    margin-bottom: 10px;
+}
+.info .heading{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 35px;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.info .brief{
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}
+.counter{
+    color: #f3f3f3;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    height: 100px;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 5px;
+   
+}
+.counter > div{
+    margin: 10px 20px;
+}
+.counter span{
+    display: block;
+}
+.counter div span:first-child{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'PT Sans', sans-serif;
+}
+.subscrib input{
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 0;
+    margin-right: 0;
+    border: none;
+}
+.subscrib button{
+    background: #ffb310;
+    border: none;
+    height: 30px;
+    margin-left: -4px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.socila-icon i {
+    color: #FFB310;
+    padding: 0 10px;
+}
+.socila-icon i:hover{
+    color: rgb(255, 200, 80);
+}
+.footer{
+    position: absolute;
+    color: #f3f3f3;
+    bottom: 10px;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+}
+.footer a{
+    font-size: 15px;
+    color: #FFB310;
+}
+.footer a:hover{
+    color: rgb(255, 200, 80);
+}
+.comingSoon{
+    position: absolute;
+    top: 50%;
+    font-size: 12px;
+    letter-spacing: 5px;
+    color: #ffb310;
+}
+.comingSoon1{
+    left: -50px;
+    transform: rotate(90deg)
+}
+.comingSoon2{
+    right: -50px;
+    transform: rotate(-90deg)
+}
+.overlay {
+    background-color: rgba(0, 0, 0, .8); /* Adjust transparency (0.5 = 50% opacity) */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Comin Soon</title>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous">
+        <link
+            href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
+            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/png" href="apple-touch-icon.png">
+    </head>
+
+    <body>
+        <div class="screen">
+            <div class="content">
+                <div class="logo">
+                    <img src="cropped_image (1).png" alt="">
+                </div>
+                <div class="info">
+                    <h1 class="heading">Under<br>Construction</h1>
+                    <p class="brief">
+                        The MindFuel project is currently under development.<br>
+                        Stay tuned for updates as we work on building something exciting!
+                    </p>
+                </div>
+
+                <div class="counter">
+                    <div class="days">
+                        <span id="days"></span>
+                        <span class="name">Days</sapn>
+                    </div>
+                    <div class="hours">
+                        <span id="hours"></span>
+                        <span class="name">Hours</span>
+                    </div>
+                    <div class="minutes">
+                        <span id="minutes"></span>
+                        <span class="name">Minutes</span>
+                    </div>
+                    <div class="seconds">
+                        <span id="seconds"></span>
+                        <span class="name">Seconds</>
+                    </div>
+                </div>
+
+                <div class="subscrib">
+                    <form>
+                        <input type="email" name="email" id="" placeholder="Subscrib Now">
+                        <button type="submit">Subscrib</button>
+                    </form>
+                </div>
+                <div class="socila-icon">
+                    <span>
+                        <a href="https://www.instagram.com/staymindfuel/">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="https://www.instagram.com/staymindfuel/">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="https://www.instagram.com/staymindfuel/">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="https://www.instagram.com/staymindfuel/">
+                            <i class="fab fa-google-play"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="footer">
+                    <p>Created by
+                        <a href="https://github.com/ouaarab-mouad/">Mouad</a>
+                    </p>
+                </div>
+            </div>
+            <div class="overlay"></div>
+            <div class="comingSoon comingSoon1">coming soon...</div>
+            <div class="comingSoon comingSoon2">coming soon...</div>
+        </div>
+
+        <script type="text/javascript">
+           var ourFunction= setInterval(
+            function countdown () {
+                var now = new Date().getTime();
+                var currentYear = new Date().getFullYear();
+                var nextYear = currentYear ;
+                var eventDate = new Date(`mar 30, ${nextYear} 00:00:00`).getTime();
+
+                var  remTime = eventDate - now;
+
+                var s = Math.floor((remTime % (1000 * 60)) / (1000));
+                var m = Math.floor((remTime % (1000 * 60 * 60)) / (1000 * 60));
+                var h = Math.floor((remTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var d = Math.floor(remTime / (1000 * 60 * 60 * 24));
+
+                s = (s < 10) ? "0" + s : s;
+                m = (m < 10) ? "0" + m : m;
+                h = (h < 10) ? "0" + h : h;
+
+                document.getElementById("days").innerHTML = d;
+                document.getElementById("hours").innerHTML = h;
+                document.getElementById("minutes").innerHTML = m;
+                document.getElementById("seconds").innerHTML = s;
+
+            }, 1000);
+        </script>
+    </body>
+</html>
