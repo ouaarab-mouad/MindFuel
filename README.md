@@ -1,8 +1,20 @@
-# MindFuel  
+# Stay MindFuel
 
-The MindFuel project is currently under development.  
-I've purchased the domain [**StayMindFuel.uk**](https://staymindfuel.uk), and the project’s style and design are in progress.  
+Welcome to Stay MindFuel! 🚀
 
-A **Coming Soon** page is live! Click [here](https://staymindfuel.uk) to check it out.  
+## Project Overview
+Stay MindFuel is a motivation-driven platform designed to inspire and empower individuals through engaging content. This project is currently under development.
 
-Stay tuned for more updates!  
+## Preview
+![Coming Soon](Sreen of the Page.png)
+
+## Domain & Hosting
+- **Domain:** [stayMindFuel.uk](https://stayMindFuel.uk)  
+- **Hosting:** Deployed on Netlify - [Visit here](https://mindfuel.netlify.app/)
+
+## Features (Planned)
+✅ Motivational Reels & Posts  
+✅ Exclusive Brand Book  
+✅ Community Engagement  
+
+Stay tuned for updates! 🔥
