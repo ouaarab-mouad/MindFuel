@@ -6,7 +6,7 @@ Welcome to Stay MindFuel! 🚀
 Stay MindFuel is a motivation-driven platform designed to inspire and empower individuals through engaging content. This project is currently under development.
 
 ## Preview
-![Coming Soon](https://github.com/ouaarab-mouad/MindFuel/blob/main/Sreen%20of%20the%20Page.png))
+![Coming Soon](https://github.com/ouaarab-mouad/MindFuel/blob/main/Sreen%20of%20the%20Page.png)
 
 ## Domain & Hosting
 - **Domain:** [stayMindFuel.uk](https://stayMindFuel.uk)  
