@@ -1,6 +1,6 @@
 # Stay MindFuel
 
-Welcome to Stay MindFuel! 🚀
+Welcome to Stay MindFuel! 
 
 ## Project Overview
 Stay MindFuel is a motivation-driven platform designed to inspire and empower individuals through engaging content. This project is currently under development.
