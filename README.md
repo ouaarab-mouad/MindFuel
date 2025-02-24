@@ -1,6 +1,6 @@
 # Stay MindFuel
 
-![Background](https://your-gif-link.com/background.gif)
+![Background](https://github.com/ouaarab-mouad/MindFuel/blob/main/220141.gif)
 
 Welcome to Stay MindFuel! 
 
