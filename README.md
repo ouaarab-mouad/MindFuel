@@ -1,5 +1,7 @@
 # Stay MindFuel
 
+![Background](https://your-gif-link.com/background.gif)
+
 Welcome to Stay MindFuel! 
 
 ## Project Overview
@@ -17,4 +19,4 @@ Stay MindFuel is a motivation-driven platform designed to inspire and empower in
 ✅ Exclusive Brand Book  
 ✅ Community Engagement  
 
-Stay tuned for updates! 
+Stay tuned for updates!
